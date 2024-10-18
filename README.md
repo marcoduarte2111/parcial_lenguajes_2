@@ -4,7 +4,7 @@ Este proyecto contiene la implementación en ANTLR4 de tres ejercicios del segun
 
 ## Contenido
 
-1. [Ejercicio 1: Operaciones con Números Racionales]([#ejercicio-1-operaciones-con-números-racionales](https://github.com/marcoduarte2111/parcial_lenguajes_2/tree/main/Gramatica_Map_Filter))
+1. [Ejercicio 1: Operaciones con Números Racionales](https://github.com/marcoduarte2111/parcial_lenguajes_2/tree/main/Gramatica_Map_Filter)
 2. [Ejercicio 2: Operaciones con Iterables (Map y Filter)](#ejercicio-2-operaciones-con-iterables-map-y-filter)
 3. [Ejercicio 3: Transformada de Laplace](#ejercicio-3-transformada-de-laplace)
 
