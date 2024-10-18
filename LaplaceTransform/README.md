@@ -80,31 +80,3 @@ bash
 
 Transformada de Laplace: 1/(s^2 + 1) + 2/s^2 + 6/s^4
 
-Estructura del Proyecto
-
-    LaplaceTransform.g4: Archivo de gramática de ANTLR4 para el lenguaje de transformada de Laplace.
-    LaplaceTransformVisitorImpl.py: Implementación del visitor para calcular la transformada de Laplace.
-    main.py: Archivo principal que lee la entrada del usuario y calcula la transformada de Laplace.
-    README.md: Archivo de documentación (este archivo).
-
-Funciones Soportadas
-
-    Operaciones aritméticas básicas: suma, resta, multiplicación, división y potencias.
-    Funciones trigonométricas: sin, tan.
-    Expresiones polinómicas en t.
-
-Limitaciones
-
-    No soporta funciones complejas o compuestas no incluidas en la gramática.
-    Las transformadas de funciones no estándar (como cos⁡(t2)cos(t2)) no se calculan de forma cerrada.
-
-Consideraciones para la Gramática
-
-La gramática debe definir tanto la parte léxica como sintáctica para manejar correctamente los operadores, funciones y transformadas. La implementación se realiza en Python utilizando el visitor generado por ANTLR4.
-
-go
-
-
-Este contenido puede ser utilizado directamente en un archivo `README.md` para documentar el proyecto de forma clara y estructurada en GitHub.
-
-
