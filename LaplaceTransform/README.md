@@ -23,60 +23,31 @@ Generar los archivos de ANTLR:
 
 Ejecuta el siguiente comando para generar el lexer, parser y visitor en Python:
 
-bash
+```bash
 
     antlr4 -Dlanguage=Python3 LaplaceTransform.g4 -visitor
 
-    Esto generará los archivos necesarios (LaplaceTransformLexer.py, LaplaceTransformParser.py, LaplaceTransformVisitor.py).
+```
 
-Uso
+Esto generará los archivos necesarios (LaplaceTransformLexer.py, LaplaceTransformParser.py, LaplaceTransformVisitor.py).
+
+**Uso**
 
 Para ejecutar el programa, utiliza el archivo main.py. Este archivo lee una expresión por consola y calcula su transformada de Laplace.
 
-bash
+```bash
 
 python main.py
-
+```
 El programa solicitará que ingreses una expresión para calcular su transformada de Laplace. Por ejemplo:
 
-css
+```css
 
 Ingrese una expresión para calcular su transformada de Laplace: L{t^2 + 3*t + 1}
-
+```
 La salida será:
 
-bash
+```bash
 
 Transformada de Laplace: 2/s^3 + 3/s^2 + 1/s
-
-Ejemplo
-Entrada
-
-scss
-
-L{sin(t) + 2*t + t^3}
-
-Pasos para calcular la transformada de Laplace
-
-    Transformada de Laplace de sin⁡(t)sin(t):
-    L{sin⁡(t)}=1s2+1
-    L{sin(t)}=s2+11​
-
-    Transformada de Laplace de 2t2t:
-    L{2t}=2s2
-    L{2t}=s22​
-
-    Transformada de Laplace de t3t3:
-    L{t3}=6s4
-    L{t3}=s46​
-
-    Suma de las transformadas:
-    L{sin⁡(t)+2t+t3}=1s2+1+2s2+6s4
-    L{sin(t)+2t+t3}=s2+11​+s22​+s46​
-
-Salida esperada
-
-bash
-
-Transformada de Laplace: 1/(s^2 + 1) + 2/s^2 + 6/s^4
-
+```
