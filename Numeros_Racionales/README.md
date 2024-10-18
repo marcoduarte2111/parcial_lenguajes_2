@@ -1,6 +1,6 @@
 # Operaciones con Números Racionales usando ANTLR4 y Python
 
-Este proyecto es parte del segundo parcial de la asignatura de Lenguajes de Programación. El objetivo es diseñar e implementar una gramática en ANTLR para un lenguaje de programación que permita realizar operaciones con números racionales utilizando Python como lenguaje objetivo.
+Diseñar e implementar una gramática en ANTLR para un lenguaje de programación que permita realizar operaciones con números racionales utilizando Python como lenguaje objetivo.
 
 ## Descripción del Proyecto
 
@@ -9,13 +9,12 @@ El proyecto consiste en crear una gramática que soporte operaciones aritmética
 ### Ejemplo de Uso
 
 - Entrada: `(1/3 + 2/3)`
-- Salida: `3/3`
+- Salida: `1.0`
 
 ## Requisitos
 
-- Python 3.x
+- Python 3
 - ANTLR4
-- SymPy (opcional, para facilitar el cálculo simbólico)
 
 ## Instalación
 
