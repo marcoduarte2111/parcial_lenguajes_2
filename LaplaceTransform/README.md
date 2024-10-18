@@ -1,6 +1,6 @@
 # Transformada de Laplace con ANTLR4 y Python
 
-Este proyecto forma parte del segundo parcial de la asignatura de Lenguajes de Programación. El objetivo es diseñar e implementar una gramática en ANTLR para calcular la transformada de Laplace utilizando Python como lenguaje objetivo.
+Diseñar e implementar una gramática en ANTLR para calcular la transformada de Laplace utilizando Python como lenguaje objetivo.
 
 ## Descripción del Proyecto
 
