@@ -23,3 +23,24 @@ El proyecto consiste en crear una gramática que soporte operaciones aritmética
 
    ```bash
    pip install sympy
+
+**Uso**
+
+Para ejecutar el programa, utiliza el archivo main.py. Este archivo lee una expresión por consola que contiene operaciones con números racionales y calcula el resultado.
+
+```bash
+
+python main.py
+```
+El programa solicitará que ingreses una expresión para evaluar. Por ejemplo:
+
+```yaml
+
+Ingrese una expresión de números racionales: (1/2 + 3/4) * 2/5
+```
+La salida será:
+
+```makefile
+
+Resultado: 0.25
+```
