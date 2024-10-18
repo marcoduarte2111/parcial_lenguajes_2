@@ -1,0 +1,14 @@
+map(lambda x: x.upper(), ["a", "b", "c", "d"])
+map(lambda x: x.upper(), ["perro", "foca", "leon", "sapo"])
+map(lambda y: y+9, [2, 3, 4, 5])
+filter(lambda hola: hola % 2 == 0 and hola > 2, [4, 5, 2, 17])
+map(lambda x: x * 2, [1, 2, 3, 4])
+filter(lambda x: x % 3 == 0, [9, 12, 15, 18])
+map(lambda x: x ** 2, [1, 2, 3, 4])
+filter(lambda x: len(x) > 5, ["apple", "banana", "orange", "grape", "oil"])
+map(lambda x: x.capitalize(), ["hello", "world", "how", "are", "you"])
+map(lambda x: len(x), ["cat", "dog", "elephant", "giraffe"])
+map(lambda x: x[0], ["apple", "banana", "cherry", "date"])
+filter(lambda x: x % 2 != 0, [1, 2, 3, 4, 5])
+
+
